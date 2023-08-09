@@ -9,30 +9,16 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>huijia-demo</artifactId>
+    <artifactId>hrpc-framework</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>hrpc-api</module>
-        <module>hrpc-client-demo</module>
-        <module>hrpc-provider-demo</module>
+        <module>hrpc-commons</module>
+        <module>hrpc-core</module>
     </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
 
 </project>

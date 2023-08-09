@@ -6,7 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="huijia-demo" />
+        <module name="hrpc-core" />
+        <module name="hrpc-api" />
+        <module name="hrpc-manager" />
+        <module name="hrpc-commons" />
+        <module name="hrpc-client-demo" />
+        <module name="hrpc-provider-demo" />
       </profile>
     </annotationProcessing>
   </component>
